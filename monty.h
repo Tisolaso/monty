@@ -79,8 +79,8 @@ void _rotl(stack_t **top, unsigned int line_number);
 void _rotr(stack_t **top, unsigned int line_number);
 void _mode(stack_t **top, unsigned int line_number);
 
-FILE *open(char *name);
-size_t len(int num);
+FILE *openfile(char *name);
+size_t num_len(int num);
 void verify_number(char *token);
 void free_stack(stack_t *top);
 
